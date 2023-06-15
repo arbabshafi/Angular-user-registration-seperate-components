@@ -10,9 +10,7 @@ const routes: Routes = [
   { path: 'register', component: RegisterComponent },
   { path: 'usertable', component: UsertableComponent },
   { path: 'login', component: LoginComponent },
-  { path: 'update', component: RegisterComponent },
-  {path:"admin",loadChildren:()=>import('./admin/admin.module').then(mod=>mod.AdminModule)},
-  {path:"student",loadChildren:()=>import('./student/student.module').then(mod=>mod.StudentModule)}
+  { path: 'update', component: RegisterComponent }
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes),FormsModule],
