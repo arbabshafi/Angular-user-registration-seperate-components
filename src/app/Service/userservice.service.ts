@@ -9,5 +9,5 @@ export class UserserviceService {
     {firstName:'Farhaz',lastName:'Shafi',email:'farhazshafi81@gmail.com',address:'Srinagar',password:'a',confirmPassword:'a'},
     {firstName:'Lubna',lastName:'Shafi',email:'lubnashafi81@gmail.com',address:'Konibal',password:'a',confirmPassword:'a'},
   ];
-  constructor() { }
+  constructor() {}
 }
